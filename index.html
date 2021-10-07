@@ -3,11 +3,29 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Forms</title>
+  <title>Form</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <header> 
+    <section class="form-test">
+      <form>
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text"/>
+        </div>
+  
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email"/>
+        </div>
+        <button type="submit">Send It!</button>
+      </form>
+    </section>
+<div class="formResults">
+  <h2>Form Data</h2>
+  <pre></pre>
+</div>
 
 </header>
 <script src='main.js'></script>

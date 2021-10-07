@@ -1,0 +1,66 @@
+body {
+  background: whitesmoke;
+  color: gray;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+
+.form-test,
+.formResults {
+  width: 807px;
+  max-width: 550px;
+  margin: 72px auto;
+}
+
+.formResults pre {
+  margin-top: 12px;
+  padding: 50px 12px;
+  background: whitesmoke;
+  border: 1px solid lightgrey;
+  overflow-x: scroll;
+}
+
+.form-test form {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 12px 0 2rem;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+}
+
+.input-group {
+  margin-top: 4px;
+  padding: 8px 12px;
+}
+
+
+.form-test input,
+.form-test select,
+.form-test textarea{
+  display: block;
+  margin-top: 4px;
+  padding: 8px 3px;
+  border: 1px solid gray;
+  width: 100%;
+  font-family: Arial;
+  font-size: 12px;
+  transition: 150ms border-color linear;
+}
+
+
+.form-test button {
+  display: block;
+  margin: 8px 12px 0;
+  padding: 0 12px 2px;
+  background-color: gray;
+  border: 0;
+  color: whitesmoke;
+  font-family: Arial;
+  font-size: 100%;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
