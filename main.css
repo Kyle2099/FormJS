@@ -17,8 +17,8 @@ body {
 .formResults pre {
   margin-top: 12px;
   padding: 50px 12px;
-  background: whitesmoke;
-  border: 1px solid lightgrey;
+  background: white;
+  border: 1px solid darkgrey;
   overflow-x: scroll;
 }
 
